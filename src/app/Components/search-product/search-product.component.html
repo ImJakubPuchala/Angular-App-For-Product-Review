@@ -1,0 +1,6 @@
+<input type="text" class="form-control" [(ngModel)]="searchTerm" (input)="search()" placeholder="Enter the product name">
+<div *ngIf="results.length > 0">
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let result of results" (click)="selectProduct(result)">{{ result.name }}</li>
+  </ul>
+</div>
