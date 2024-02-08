@@ -1,0 +1,11 @@
+.banner {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
