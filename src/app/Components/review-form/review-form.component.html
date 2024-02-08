@@ -1,8 +1,13 @@
 <div class="rating">
-  <h2>Rating for: {{ selectedProduct.name }}</h2>
-  <div class="points">
+  <h2 style="text-align: center">Rating for: {{ selectedProduct.name }}</h2>
+  <!--<div class="points">
     <label for="rating">Rating (0-10):</label>
     <input type="number" id="rating" [(ngModel)]="rating" min="0" max="10" name="rating">
+  </div>-->
+  <div>
+    <span *ngFor="let star of stars; let i = index"
+          (click)="setRating(i + 1)"
+          [class.filled]="i < rating">&#9733;</span>
   </div>
   <button (click)="submitReview()">Add review</button>
 </div>

@@ -9,9 +9,14 @@ import { ProductInformation } from '../../Model/ProductInformation';
 })
 export class ReviewFormComponent {
   @Input() selectedProduct!: ProductInformation;
-  rating?: number;
+  stars: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  rating: number = 0;
 
   constructor(private productService: ProductService) { }
+
+  setRating(index: number) {
+    this.rating = index;
+  }
 
   submitReview() {
     if (this.selectedProduct && this.rating !== undefined) {

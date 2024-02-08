@@ -18,7 +18,6 @@ label {
 }
 
 #rating {
-  
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -39,4 +38,13 @@ button {
 
 button:hover {
   background-color: #0056b3; 
+}
+
+.filled {
+  color: gold;
+}
+
+span {
+  cursor: pointer;
+  font-size: 36px;
 }
