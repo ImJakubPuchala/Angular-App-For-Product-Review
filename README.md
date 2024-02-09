@@ -1,4 +1,11 @@
-# AngularAppForProductReview
+Angular Product Reviewer
+
+This application, developed using the Angular framework, focuses on allowing users to rate products they have purchased. Its main functionality is integration with a product database, allowing users to easily search and select items to rate. Users can add their own reviews and ratings, making the app an invaluable tool in environments where product reviews and ratings play a key role.
+
+<br/>
+<a href="https://github.com/ImJakubPuchala/ASP-NET-CORE-API-For-Shop">API for applications</a>
+
+<hr/>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
