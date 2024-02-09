@@ -1,15 +1,14 @@
-
 .form-control {
   width: 300px;
   padding: 10px 20px;
   font-size: 18px;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
 .list-group {
+  font-size: 18px;
   width: 340px;
   margin-top: 5px;
   border-radius: 0 0 4px 4px;
@@ -21,14 +20,18 @@
   background-color: #fff;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0; 
 }
 
 .list-group-item {
   padding: 10px 20px;
   cursor: pointer;
   border: none;
+  text-align: center; 
 }
 
 .list-group-item:hover {
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
 }
