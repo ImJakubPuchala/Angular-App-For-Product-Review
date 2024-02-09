@@ -9,3 +9,26 @@
   font-size: 24px;
   font-family: Arial, sans-serif;
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.clearSearchButton{
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.clearSearchButton:hover {
+  background-color: #ddd;
+}

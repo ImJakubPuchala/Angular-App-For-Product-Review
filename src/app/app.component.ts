@@ -7,7 +7,11 @@ import { ProductInformation } from './Model/ProductInformation';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  selectedProduct?: ProductInformation; // Zmieniono typ na any
+  selectedProduct?: ProductInformation;
+
+  clearSearch() {
+    this.selectedProduct = undefined;
+  }
 
   onProductSelected(product: any) {
     this.selectedProduct = product;

@@ -1,5 +1,13 @@
-<div class="banner">
-  Rate Your Product!
+<div class="center">
+  <div>
+    <div class="banner">
+      Rate Your Product!
+    </div>
+    <app-search-product (productSelected)="onProductSelected($event)"></app-search-product>
+
+    <div>
+      <button *ngIf="selectedProduct" class="clearSearchButton" (click)="clearSearch()">←</button>
+    </div>
+    <app-review-form *ngIf="selectedProduct" [selectedProduct]="selectedProduct"></app-review-form>
+  </div>
 </div>
-<app-search-product (productSelected)="onProductSelected($event)"></app-search-product>
-<app-review-form *ngIf="selectedProduct" [selectedProduct]="selectedProduct"></app-review-form>
