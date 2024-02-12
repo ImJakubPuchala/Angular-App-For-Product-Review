@@ -1,5 +1,22 @@
+@media only screen and (max-width: 700px) {
+  .form-control {
+    width: 300px;
+  }
+  .list-group {
+    width: 340px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .form-control {
+    width: 600px;
+  }
+  .list-group {
+    width: 640px;
+  }
+}
+
 .form-control {
-  width: 300px;
   padding: 10px 20px;
   font-size: 18px;
   border: 1px solid #ccc;
@@ -9,7 +26,6 @@
 
 .list-group {
   font-size: 18px;
-  width: 340px;
   margin-top: 5px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,14 +38,14 @@
   box-sizing: border-box;
   list-style: none;
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 .list-group-item {
   padding: 10px 20px;
   cursor: pointer;
   border: none;
-  text-align: center; 
+  text-align: center;
 }
 
 .list-group-item:hover {

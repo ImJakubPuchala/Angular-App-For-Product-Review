@@ -1,5 +1,16 @@
+@media only screen and (max-width: 700px) {
+  .rating {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .rating {
+    width: 600px;
+  }
+}
+
 .rating {
-  width: 300px;
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #ccc;
